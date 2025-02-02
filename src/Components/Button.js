@@ -4,9 +4,12 @@
 import React from 'react'
 
 function Button(props) {
+
+
+
   return (
     <div>
-        <button>{props.children}</button>
+        <button style={props.style}>{props.children}</button>
     </div>
   )
 }
