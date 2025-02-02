@@ -1,14 +1,16 @@
 
 import './App.css';
-import Button from './Components/Button';
+import Login from './Components/Login';
+import Nav from './Components/Nav';
 
 function App() {
   return (
     <div >
 
-      <form>
-          <Button style={{backgroundColor:"green"}} >Hello</Button>
-      </form>
+      <Nav></Nav>
+      <Login></Login>
+      
+      
 
     </div>
   );
